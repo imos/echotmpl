@@ -1,5 +1,13 @@
-# echotmpl
-Generic template engine.
+# Echotmpl
+Generic template engine for languages with semicolons (C, C++, and etc.).
+Echotmpl converts text blocks into `echo("...");`
+for any language that can accept it.
+
+## Usage
+
+```
+$ echotempl < example.tmpl > example.cpp
+```
 
 ## Example
 
