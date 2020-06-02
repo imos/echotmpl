@@ -30,9 +30,10 @@ std::string List(const std::vector<std::string>& v) {
 <?
     }
 ?>
-</li>
+</ul>
 </body></html>
 <?
+    return output;
 }
 ```
 
@@ -52,8 +53,8 @@ echo(s);
 echo("</li>\x0a");
 
     }
-echo("\x0a</li>\x0a</body></html>\x0a");
-
+echo("\x0a</ul>\x0a</body></html>\x0a");
+    return output;
 }
 ```
 
